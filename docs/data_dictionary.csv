@@ -1,0 +1,28 @@
+column,description,data_type
+order_id,Unique ID for each order,string
+order_item_id,Sequence number of item within an order,integer
+product_id,Unique ID for each product,string
+seller_id,Unique ID for the seller of this item,string
+shipping_limit_date,Deadline for seller to hand item to carrier,datetime
+price,Price of the item in R$,float
+freight_value,Shipping cost in R$,float
+total_revenue,price + freight_value (item-level revenue),float
+customer_id,Unique ID for the customer placing this order (per-order),string
+order_status,"Order status: delivered, shipped, canceled, etc",string
+order_purchase_timestamp,Date/time customer placed the order,datetime
+order_approved_at,Date/time payment was approved,datetime
+order_delivered_customer_date,Date/time order reached customer,datetime
+order_estimated_delivery_date,Date promised to customer at checkout,datetime
+order_year,Year order was placed,integer
+order_month,Month order was placed (1-12),integer
+order_quarter,Quarter order was placed (1-4),integer
+order_day,Day of week order was placed,string
+delivery_days,Days between purchase and delivery,float
+is_late_delivery,"1 = delivered after estimated date, 0 = on time",integer
+customer_unique_id,Permanent unique ID for the actual person (use for CLV/churn),string
+customer_city,Customer city (standardized),string
+customer_state,Customer state (2-letter code),string
+product_category,Product category translated to English,string
+product_weight_g,Product weight in grams,float
+seller_city,Seller city,string
+seller_state,Seller state (2-letter code),string
