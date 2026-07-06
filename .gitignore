@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-# Data files (too large for GitHub)
-data/raw/
-data/processed/
-outputs/exports/
-
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
@@ -18,25 +12,11 @@ __pycache__/
 
 # Windows
 Thumbs.db
-=======
-# Data files (too large for GitHub)
-data/raw/
-data/processed/
-outputs/exports/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.env
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
-
-# Windows
-Thumbs.db
->>>>>>> 06df92a670f2ef1d30eadd63d160b9646b8c402b
 desktop.ini
+
+# Raw data (too large for GitHub)
+data/raw/
+
+# Keep processed and exports (needed for Streamlit Cloud)
+# data/processed/ ← DO NOT ignore
+# outputs/exports/ ← DO NOT ignore
