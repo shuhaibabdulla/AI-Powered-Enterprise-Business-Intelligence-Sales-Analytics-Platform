@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
-![Streamlit](https://img.shields.io/badge/Streamlit-Web App-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-WebApp-red)
 ![Status](https://img.shields.io/badge/Status-Complete-green)
 
 ## 📌 Project Overview
